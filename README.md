@@ -72,8 +72,7 @@ In `database.py`:
 
 ```python
 
-SQLALCHEMY_DATABASE_URL = 'sqlite:///./notesapp.db' -->SQLite3
-SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:password!@localhost/NotesApplicationDatabase' -->PostgreSQL
+SQLALCHEMY_DATABASE_URL = 'postgresql://postgres:password!@localhost/NotesApplicationDatabase' 
 
 ```
 
