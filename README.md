@@ -57,13 +57,13 @@ You can choose **SQLite** for simplicity or **PostgreSQL** for production-ready 
 In `database.py`:
 
 ```python
-SQLALCHEMY_DATABASE_URL = "sqlite:///./notesapp.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./notesecureapp.db"
 ```
 
 In `alembic.ini`:
 
 ```ini
-sqlalchemy.url = sqlite:///./notesapp.db
+sqlalchemy.url = sqlite:///./notesecureapp.db
 ```
 
 #### 🐘 Option B: PostgreSQL
